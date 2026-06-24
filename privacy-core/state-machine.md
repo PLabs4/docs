@@ -1,6 +1,6 @@
 # Note state machine (OrchardVerifier)
 
-`OrchardVerifier` is the **on-chain state machine** for Privacy Core. All layers (pERC20 and future protocols on `IPERC20`) share this execution semantics.
+`OrchardVerifier` is the **on-chain state machine** for Privacy Core. All applications (pERC20, pSWAP, …) share this execution semantics.
 
 ## Scope
 

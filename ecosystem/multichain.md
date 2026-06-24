@@ -29,7 +29,7 @@ One claim per wallet **per chain**: key = `(wallet_address, chain_id)`.
 
 ## Test addresses
 
-See [Performance benchmarks](performance.md) and `docs/perc20-performance-benchmarks-en.md` §3.2.
+See [Performance benchmarks](performance.md) §3.2.
 
 ## Source
 

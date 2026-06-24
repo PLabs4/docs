@@ -1,6 +1,6 @@
 # pERC20 overview
 
-**pERC20** is the **native private fungible token** asset protocol: Orchard notes plus ERC-20-like product semantics.
+**pERC20** is the **native private fungible token** asset protocol: Orchard notes plus ERC-20-like product semantics. Private assets created here are consumed by [Applications](../../applications/overview.md) (pSWAP, pDEX, pX402).
 
 ## One line
 

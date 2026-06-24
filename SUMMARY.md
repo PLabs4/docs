@@ -1,6 +1,9 @@
 # Table of contents
 
+
 * [Home](README.md)
+
+---
 
 ## Privacy Core
 
@@ -26,6 +29,7 @@
 
 * [Shield ERC20 overview (coming soon)](privacy-core/erc20-shield/overview.md)
 
+
 ## Ecosystem & guides
 
 * [Multi-chain deployment](ecosystem/multichain.md)
@@ -34,6 +38,7 @@
 * [Quick start](guides/quick-start.md)
 * [Issuer guide](guides/issuer-guide.md)
 * [Developer integration guide](guides/developer-guide.md)
+
 
 ## Appendix
 

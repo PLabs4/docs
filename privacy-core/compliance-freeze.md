@@ -41,10 +41,10 @@ Each action’s Groth16 public input commits to this root via `pub_hash`.
 
 Admin can freeze identified notes. Should use multisig / timelock in production.
 
-## Shared by asset protocols
+## Shared by applications
 
 - **pERC20**: per-pool `cmxFrozenRoot`
-- Any `IPERC20.transfer` (including multi-pool flows) must pass non-membership in its pool
+- **pSWAP**: each leg must pass non-membership in its pool
 
 ## Admin workflow
 

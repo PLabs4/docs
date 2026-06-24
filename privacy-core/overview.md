@@ -5,7 +5,7 @@
 1. **Cryptographic layer** — how value exists as **Orchard notes**, how actions are proved and verified, compliance freeze
 2. **Asset protocols** — how **private assets** are created (`pERC20` native mint, `Shield ERC20` public → private)
 
-Higher-level product protocols (swap, DEX, payments) build on `IPERC20` pools defined here.
+[Applications](../applications/overview.md) (pSWAP, pDEX, pX402) **consume** those assets; they do not define note creation.
 
 ## Cryptographic layer
 
@@ -34,6 +34,8 @@ How privacy assets enter the system:
 | [Shield ERC20](erc20-shield/overview.md) | 🔜 Coming soon | Deposit public ERC-20 → private notes; unshield back |
 
 `PERC20.sol` **inherits** `OrchardVerifier` and adds supply + `IPERC20` — see [pERC20 overview](perc20/overview.md).
+
+pSWAP / pDEX / pX402 call **`IPERC20.transfer`** (and future app rules) on pools created by these asset protocols.
 
 ## Relation to Zcash Orchard
 

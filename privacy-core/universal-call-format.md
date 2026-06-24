@@ -1,6 +1,6 @@
 # Universal call format: PrivacyCall / BundleAction
 
-The **shared on-chain payload** exposed by Privacy Core to all callers.
+The **shared on-chain payload** exposed by Privacy Core to all applications.
 
 ## PrivacyCall
 
@@ -27,7 +27,7 @@ struct BundleAction {
 }
 ```
 
-## Usage by protocols
+## Usage by applications
 
 | Application | Call |
 |-------------|------|
@@ -37,7 +37,7 @@ struct BundleAction {
 
 ## Calldata size
 
-Single-action `transfer(PrivacyCall)` ≈ **1,900–1,960 B (~1.9 KB)** when ABI-encoded. Measured from real bundle encoding (`docs/perc20-performance-benchmarks-en.md`, 2026-06-23).
+Single-action `transfer(PrivacyCall)` ≈ **1,900–1,960 B (~1.9 KB)** when ABI-encoded. Measured from real bundle encoding ([Performance benchmarks](../ecosystem/performance.md), 2026-06-23).
 
 Groth16 proof is only **256 B raw**, so calldata is **not proof-dominated** — the largest field is **`encCiphertext`** (580 B raw).
 
@@ -69,4 +69,4 @@ Default `maxActions = 10`, cap 16. One `bindingSig` per bundle.
 
 ## Next
 
-→ [pERC20 operations](perc20/operations.md)
+→ [Applications overview](../applications/overview.md)

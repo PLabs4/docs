@@ -47,6 +47,6 @@ e2e/scripts/run_full_e2e.sh
 
 | Goal | Doc |
 |------|-----|
-| Understand modules | [Privacy Core](../privacy-core/overview.md) |
+| Understand modules | [Privacy Core](../privacy-core/overview.md) · [Applications](../applications/overview.md) |
 | Issue a token | [Issuer guide](issuer-guide.md) |
 | Integrate wallet | [Developer guide](developer-guide.md) |
