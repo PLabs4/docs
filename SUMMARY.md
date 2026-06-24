@@ -1,8 +1,6 @@
-# Summary
+# Table of contents
 
 * [Home](README.md)
-
----
 
 ## Privacy Core
 
@@ -14,9 +12,7 @@
 * [Compliance freeze design](privacy-core/compliance-freeze.md)
 * [Universal call format: PrivacyCall / BundleAction](privacy-core/universal-call-format.md)
 
-### Asset protocols
-
-#### pERC20
+## Asset protocols
 
 * [pERC20 overview](privacy-core/perc20/overview.md)
 * [Interface & ERC-20 mapping](privacy-core/perc20/interface-and-erc20.md)
@@ -26,11 +22,9 @@
 * [ERC-8289 specification index (prior draft number)](privacy-core/perc20/eip-8289.md)
 * [ERC-8302 — approved spending extension (PR #1817)](privacy-core/perc20/eip-8302.md)
 
-#### Shield ERC20
+***
 
-* [Shield ERC20 overview _(coming soon)_](privacy-core/erc20-shield/overview.md)
-
----
+* [Shield ERC20 overview (coming soon)](privacy-core/erc20-shield/overview.md)
 
 ## Ecosystem & guides
 
@@ -40,8 +34,6 @@
 * [Quick start](guides/quick-start.md)
 * [Issuer guide](guides/issuer-guide.md)
 * [Developer integration guide](guides/developer-guide.md)
-
----
 
 ## Appendix
 
