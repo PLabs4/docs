@@ -27,7 +27,7 @@
 
 ### ERC20 Shield
 
-* [Shield ERC20 overview (coming soon)](privacy-core/erc20-shield/overview.md)
+* [Shield ERC20 overview](privacy-core/erc20-shield/overview.md)
 
 
 ## Ecosystem

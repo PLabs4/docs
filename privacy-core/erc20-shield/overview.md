@@ -1,6 +1,6 @@
 # Shield ERC20 overview
 
-> **Status: coming soon** — documentation and reference implementation are not yet published.
+> **Status: documented** — protocol overview is available; implementation details can be expanded as the reference contracts are finalized.
 
 **Shield ERC20** privatizes **existing public ERC-20** tokens. It is an **asset protocol** under Privacy Core (with [pERC20](../perc20/overview.md)), not a swap/payment application.
 

@@ -34,7 +34,7 @@
 
 | Term | Definition |
 |------|------------|
-| **Shield ERC20** | Public ERC-20 → private notes asset protocol (coming soon) |
+| **Shield ERC20** | Public ERC-20 → private notes asset protocol |
 
 ## pSWAP
 

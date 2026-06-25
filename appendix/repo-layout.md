@@ -7,7 +7,7 @@ gitbook/
 ├── privacy-core/          Privacy Core
 │   ├── (crypto)           Orchard, circuits, freeze, …
 │   ├── perc20/            pERC20 asset protocol
-│   └── erc20-shield/      Shield ERC20 (coming soon)
+│   └── erc20-shield/      Shield ERC20 asset protocol
 ├── applications/          Operations on privacy assets
 │   ├── private-swap/      pSWAP (SwapCoordinator design)
 │   ├── private-dex/       pDEX (coming soon)
@@ -23,7 +23,7 @@ gitbook/
 | `privacy-core/perc20/*` | `contracts/ptoken/`, ERC submissions |
 | `privacy-core/perc20/eip-8302.md` | [PR #1817](https://github.com/ethereum/ERCs/pull/1817) `ERCS/erc-8302.md` |
 | `privacy-core/perc20/eip-8289.md` | Prior draft number; repo `docs/eip-draft.md` |
-| `privacy-core/erc20-shield/*` | Coming soon |
+| `privacy-core/erc20-shield/*` | Shield ERC20 protocol documentation |
 | `applications/private-swap/*` | Target: `SwapCoordinator` |
 | `applications/private-dex/*` | Coming soon |
 | `applications/private-x402/*` | Coming soon |
@@ -55,7 +55,7 @@ cd gitbook && honkit serve
 | Priority | Chapter | Source |
 |----------|---------|--------|
 | P0 | `privacy-core/perc20/approved-spending` | `docs/zip-32-approve-extend.md` |
-| P1 | `privacy-core/erc20-shield/*` | Coming soon |
+| P1 | `privacy-core/erc20-shield/*` | Expand implementation and source mapping |
 | P0 | `applications/private-swap/*` | Implement `SwapCoordinator` per design spec |
 | P1 | `applications/private-dex/*` | Coming soon |
 | P1 | `applications/private-x402/*` | Coming soon |

@@ -31,7 +31,7 @@ How privacy assets enter the system:
 | Protocol | Status | Role |
 |----------|--------|------|
 | [pERC20](perc20/overview.md) | ✅ Shipped | Native private fungible token — `mint` / `transfer` / `burn` on `PERC20` pool |
-| [Shield ERC20](erc20-shield/overview.md) | 🔜 Coming soon | Deposit public ERC-20 → private notes; unshield back |
+| [Shield ERC20](erc20-shield/overview.md) | Documented | Deposit public ERC-20 → private notes; unshield back |
 
 `PERC20.sol` **inherits** `OrchardVerifier` and adds supply + `IPERC20` — see [pERC20 overview](perc20/overview.md).
 
