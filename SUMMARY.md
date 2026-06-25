@@ -15,7 +15,7 @@
 * [Compliance freeze design](privacy-core/compliance-freeze.md)
 * [Universal call format: PrivacyCall / BundleAction](privacy-core/universal-call-format.md)
 
-## Asset protocols
+### pERC20
 
 * [pERC20 overview](privacy-core/perc20/overview.md)
 * [Interface & ERC-20 mapping](privacy-core/perc20/interface-and-erc20.md)
@@ -25,16 +25,19 @@
 * [ERC-8289 specification index (prior draft number)](privacy-core/perc20/eip-8289.md)
 * [ERC-8302 — approved spending extension (PR #1817)](privacy-core/perc20/eip-8302.md)
 
-***
+### ERC20 Shield
 
 * [Shield ERC20 overview (coming soon)](privacy-core/erc20-shield/overview.md)
 
 
-## Ecosystem & guides
+## Ecosystem
 
 * [Multi-chain deployment](ecosystem/multichain.md)
 * [Performance benchmarks](ecosystem/performance.md)
 * [Wallet & off-chain services](ecosystem/off-chain-services.md)
+
+## Guides
+
 * [Quick start](guides/quick-start.md)
 * [Issuer guide](guides/issuer-guide.md)
 * [Developer integration guide](guides/developer-guide.md)
