@@ -5,7 +5,7 @@
 1. **Cryptographic layer** — how value exists as **Orchard notes**, how actions are proved and verified, compliance freeze
 2. **Asset protocols** — how **private assets** are created (`pERC20` native mint, `Shield ERC20` public → private)
 
-[Applications](../applications/overview.md) (pSWAP, pDEX, pX402) **consume** those assets; they do not define note creation.
+**Applications** (pSWAP, pDEX, pX402) consume private assets built on Privacy Core; they are documented separately and are not part of this book.
 
 ## Cryptographic layer
 
@@ -14,6 +14,7 @@ Orchard concepts        notes / commitments / nullifiers / encryption
 Note state machine      OrchardVerifier on-chain logic
 Groth16 action circuit  131,787 constraints, BN254
 Signatures              bindingSig + spendAuthSig
+Compliance              entry/exit screening (off-chain) + frozenRoot (on-chain)
 Compliance freeze       IMT blacklist + pubFields[7] binding
 Universal call format   PrivacyCall / BundleAction (shared by all layers)
 ```
@@ -31,7 +32,7 @@ How privacy assets enter the system:
 | Protocol | Status | Role |
 |----------|--------|------|
 | [pERC20](perc20/overview.md) | ✅ Shipped | Native private fungible token — `mint` / `transfer` / `burn` on `PERC20` pool |
-| [Shield ERC20](erc20-shield/overview.md) | Documented | Deposit public ERC-20 → private notes; unshield back |
+| [Shield ERC20](erc20-shield/overview.md) | ✅ Shipped | Deposit public ERC-20 → private notes; `unshield` back |
 
 `PERC20.sol` **inherits** `OrchardVerifier` and adds supply + `IPERC20` — see [pERC20 overview](perc20/overview.md).
 
@@ -44,7 +45,7 @@ pSWAP / pDEX / pX402 call **`IPERC20.transfer`** (and future app rules) on pools
 | Note format, nullifiers, note encryption | Groth16 instead of Orchard native proofs |
 | Action value conservation, binding sig | On-chain BabyJubJub Schnorr (Solidity) |
 | Shielded-pool semantics | **Per-asset pool** (not one global shielded pool) |
-| — | **Compliance freeze** in-circuit (`FrozenCmxNonMember`) |
+| — | **Compliance** — off-chain screening + in-circuit freeze (`FrozenCmxNonMember`) |
 
 ## Trust boundaries
 
@@ -58,5 +59,6 @@ pSWAP / pDEX / pX402 call **`IPERC20.transfer`** (and future app rules) on pools
 
 ## Next
 
+- [Compliance implementation](compliance-implementation.md)
 - [Orchard concepts](orchard-concepts.md)
 - [pERC20 overview](perc20/overview.md)

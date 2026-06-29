@@ -1,5 +1,7 @@
 # Compliance freeze design
 
+Compliance freeze is the **on-chain half** of Privacy Core compliance (Layer 2 — post-hoc note freeze). For entry/exit address screening (Layer 1, off-chain TRM + Chainalysis) and the full operational model, see [Compliance implementation](compliance-implementation.md).
+
 Compliance freeze is Privacy Core’s **explicit extension** over Zcash Orchard: the circuit proves spent notes are **not** on an admin-maintained blacklist.
 
 ## Goals
@@ -55,5 +57,6 @@ Admin can freeze identified notes. Should use multisig / timelock in production.
 
 ## Next
 
+- [Compliance implementation](compliance-implementation.md) — entry/exit screening + freeze overview
 - [Universal call format](universal-call-format.md)
 - [pERC20 overview](perc20/overview.md)

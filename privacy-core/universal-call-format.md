@@ -33,6 +33,7 @@ struct BundleAction {
 |-------------|------|
 | pERC20 transfer | `transfer(PrivacyCall)` |
 | pERC20 mint/burn | `mint` / `burn` + valueBalance |
+| Shield ERC20 shield/unshield | `shield` / `unshield` + valueBalance (+ `recipientMeta` on unshield) |
 | pERC20 approve (on-chain step) | `transfer(PrivacyCall)` |
 
 ## Calldata size
@@ -69,4 +70,4 @@ Default `maxActions = 10`, cap 16. One `bindingSig` per bundle.
 
 ## Next
 
-→ [Applications overview](../applications/overview.md)
+→ [Shield ERC20 overview](erc20-shield/overview.md)

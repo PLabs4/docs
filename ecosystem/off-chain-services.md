@@ -23,7 +23,7 @@ PERC20 pool (OrchardVerifier on-chain)
 |---------|------|--------|--------------|
 | **privacy-prover** | witness + Groth16 | action circuit | same `action.circom` per leg |
 | **privacy-indexer** | event index | ✅ | ✅ |
-| **privacy-relayer** | broadcast txs | ✅ | ✅ settle |
+| **privacy-relayer** | broadcast txs; entry/exit address screening (see [Compliance implementation](../privacy-core/compliance-implementation.md)) | ✅ | ✅ settle |
 | **store-service** | airdrop dedup | ✅ | — |
 
 ## Wallet responsibilities
