@@ -3,14 +3,11 @@
 - [Home](README.md)
 
 - Privacy Core
-  - [Overview](privacy-core/overview.md)
-  - [Orchard concepts](privacy-core/orchard-concepts.md)
-  - [Note state machine (OrchardVerifier)](privacy-core/state-machine.md)
-  - [Groth16 action circuit](privacy-core/groth16-action-circuit.md)
-  - [Signatures: bindingSig & spendAuthSig](privacy-core/signatures.md)
-  - [Compliance implementation](privacy-core/compliance-implementation.md)
-  - [Compliance freeze design](privacy-core/compliance-freeze.md)
-  - [Universal call format: PrivacyCall / BundleAction](privacy-core/universal-call-format.md)
+  - Shield ERC20
+    - [Overview](privacy-core/erc20-shield/overview.md)
+    - [Interface & pERC20 mapping](privacy-core/erc20-shield/interface-and-perc20.md)
+    - [Operations: shield / unshield / transfer](privacy-core/erc20-shield/operations.md)
+    - [Deployment & factory](privacy-core/erc20-shield/deployment.md)
   - pERC20
     - [Overview](privacy-core/perc20/overview.md)
     - [Interface & ERC-20 mapping](privacy-core/perc20/interface-and-erc20.md)
@@ -19,11 +16,15 @@
     - [Issuance & deployment](privacy-core/perc20/issuance-and-deployment.md)
     - [ERC-8289 specification index](privacy-core/perc20/eip-8289.md)
     - [ERC-8302 approved spending extension](privacy-core/perc20/eip-8302.md)
-  - Shield ERC20
-    - [Overview](privacy-core/erc20-shield/overview.md)
-    - [Interface & pERC20 mapping](privacy-core/erc20-shield/interface-and-perc20.md)
-    - [Operations: shield / unshield / transfer](privacy-core/erc20-shield/operations.md)
-    - [Deployment & factory](privacy-core/erc20-shield/deployment.md)
+
+  - [Overview](privacy-core/overview.md)
+  - [Orchard concepts](privacy-core/orchard-concepts.md)
+  - [Note state machine (OrchardVerifier)](privacy-core/state-machine.md)
+  - [Groth16 action circuit](privacy-core/groth16-action-circuit.md)
+  - [Signatures: bindingSig & spendAuthSig](privacy-core/signatures.md)
+  - [Compliance implementation](privacy-core/compliance-implementation.md)
+  - [Compliance freeze design](privacy-core/compliance-freeze.md)
+  - [Universal call format: PrivacyCall / BundleAction](privacy-core/universal-call-format.md)
 
 - Ecosystem
   - [Multi-chain deployment](ecosystem/multichain.md)
