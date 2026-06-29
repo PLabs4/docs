@@ -15,9 +15,8 @@
 * [Compliance freeze design](privacy-core/compliance-freeze.md)
 * [Universal call format: PrivacyCall / BundleAction](privacy-core/universal-call-format.md)
 
-### Asset protocols
 
-#### pERC20
+### pERC20
 
 * [pERC20 overview](privacy-core/perc20/overview.md)
 * [Interface & ERC-20 mapping](privacy-core/perc20/interface-and-erc20.md)
@@ -27,7 +26,7 @@
 * [ERC-8289 specification index (prior draft number)](privacy-core/perc20/eip-8289.md)
 * [ERC-8302 — approved spending extension (PR #1817)](privacy-core/perc20/eip-8302.md)
 
-#### Shield ERC20
+### Shield ERC20
 
 * [Shield ERC20 overview](privacy-core/erc20-shield/overview.md)
 * [Interface & pERC20 mapping](privacy-core/erc20-shield/interface-and-perc20.md)
